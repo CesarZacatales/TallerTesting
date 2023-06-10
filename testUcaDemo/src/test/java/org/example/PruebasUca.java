@@ -33,6 +33,7 @@ public class PruebasUca {
         WebElement BuscarFireBtnV;
         WebElement BuscarFireBtnVI;
         WebElement BuscarFireBtnVII;
+        WebElement BuscarFireBtnVIII;
 
         BuscarFireBtn = driver.findElement(By.cssSelector("#user-name"));
         BuscarFireBtn.click();
@@ -46,10 +47,12 @@ public class PruebasUca {
         BuscarFireBtnIIII.click();
         BuscarFireBtnV = driver.findElement(By.cssSelector("#add-to-cart-sauce-labs-bike-light"));
         BuscarFireBtnV.click();
-        BuscarFireBtnVI = driver.findElement(By.cssSelector("#shopping_cart_container > a"));
+        BuscarFireBtnVI = driver.findElement(By.cssSelector("#remove-sauce-labs-backpack"));
         BuscarFireBtnVI.click();
-        BuscarFireBtnVII = driver.findElement(By.cssSelector("#checkout"));
+        BuscarFireBtnVII = driver.findElement(By.cssSelector("#shopping_cart_container > a"));
         BuscarFireBtnVII.click();
+        BuscarFireBtnVIII = driver.findElement(By.cssSelector("#checkout"));
+        BuscarFireBtnVIII.click();
 
 
 
